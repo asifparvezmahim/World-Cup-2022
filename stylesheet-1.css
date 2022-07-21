@@ -5,6 +5,13 @@
 -----------------------------*/
 
 
+@media only screen and (max-width:600px) {
+    .heading-section {
+        width: 100%;
+    }
+
+}
+
 .heading-section {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -56,15 +63,21 @@
 "start of second-part"
 
 -----------------------------*/
+
 .second-part {
+    margin-bottom: 20px;
+}
+
+
+.card-section {
     margin-left: 150px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    column-gap: 15px;
-    row-gap: 15px;
+    column-gap: 5px;
+    row-gap: 5px;
 }
 
-.second-part h3 {
+.card-section h3 {
     border: 1px solid black;
     width: 90px;
     padding: 5px;
@@ -83,6 +96,40 @@
     width: 313px;
     margin-bottom: 100px;
 }
+
+.menu-box {
+    border: 1px solid black;
+    margin-right: 80%;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: wheat;
+
+}
+
+.menu-box p {
+    text-decoration: none;
+    border: 1px solid black;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 8px;
+}
+
+.menu-box p a {
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+#blog {
+    color: white;
+    background-color: red;
+}
+
 
 @media only screen and (max-width:600px) {
     .second-part {
